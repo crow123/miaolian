@@ -1,0 +1,31 @@
+miaolian:
+  server:
+    port: 8080
+    context-path: /
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/crow?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&?autoReconnect=true&useSSL=false
+    username: root
+    password: 123456
+
+  jedis:
+    redisHost : 127.0.0.1
+    redisPort : 6379
+    redisPassword : 123456
+    maxTotal : 100
+    maxIdle : 10
+    maxWaitMillis : 100000
+    timeOut : 30000
+
+pagehelper:
+    autoDialect: true
+    closeConn: false
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql
+
+mybatis:
+    type-aliases-package: com.miaolian.cn.domain
+    mapper-locations: classpath:mapper/*.xml

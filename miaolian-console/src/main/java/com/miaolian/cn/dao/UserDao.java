@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Select;
 import java.util.List;
 
 /**
- * Created by jiangyj on 2017/8/10.
+ * Created by jiangyj on
  */
 public interface UserDao extends BaseTkMapper<User> {
     @Select("select * from user")

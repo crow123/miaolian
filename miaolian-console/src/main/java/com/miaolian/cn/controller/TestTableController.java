@@ -32,6 +32,8 @@ public class TestTableController {
         return ResultGenerator.genSuccessResult();
     }
 
+
+
     @PutMapping
     public Result update(@RequestBody TestTable testTable) {
         testTableService.update(testTable);

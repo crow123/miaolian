@@ -1,17 +1,14 @@
 package com.miaolian.cn.config;
 
-import org.springframework.boot.autoconfigure.AutoConfigureAfter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.core.annotation.Order;
 import tk.mybatis.spring.mapper.MapperScannerConfigurer;
 
 import java.util.Properties;
 
 /**
  * MyBatis扫描接口，使用的tk.mybatis.spring.mapper.MapperScannerConfigurer，如果你不使用通用Mapper，
- * 可以改为org.xxx...
- *  Created by jiangyj on 2017/8/10.
+ * 可以改为org.xxx..
  */
 
 @Configuration

@@ -22,7 +22,6 @@ import javax.annotation.Resource;
 /**
  * 通用缓存工具类
  *  create by jiangyj
- *  2017年8月14日16:47:21
  */
 public class RedisUtil {
 

@@ -29,3 +29,5 @@ pagehelper:
 mybatis:
     type-aliases-package: com.miaolian.cn.domain
     mapper-locations: classpath:mapper/*.xml
+
+
